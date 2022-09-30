@@ -5,16 +5,15 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
-    background-color: rgb(172, 172, 172)
-    
+    background:linear-gradient(rgb(218, 135, 218), rgba(0,0,0,0));
 }
 
 .topnav {
     background: linear-gradient(to right, purple, rgba(0, 0, 0, 0));
     overflow: hidden;
     margin-bottom: 30px;
-    position:sticky;
-    top:0;
+    position: sticky;
+    top: 0;
 }
 
 .topnav a {
@@ -41,42 +40,71 @@ body {
     margin-right: auto;
 }
 
-#header{
-    user-select:none;
-    background-color:white;
-    margin-left:50px;
-    margin-right:50px;
-    border-radius:10px;
-    margin-bottom:50px;
-    box-shadow:0 3px 10px rgb(255, 0, 128);
+#header {
+    color:black;
+    user-select: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+    /* box-shadow: 0 3px 10px rgb(255, 0, 128); */
 }
 
-#header h1, h2 {
-    padding-left:20px;
+#header h1,
+h2 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+/* #header:hover {
+    box-shadow: 0 3px 10px rgb(92, 43, 226);
+} */
+
+#education {
+    box-shadow: 0 3px 10px white;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     padding-bottom:10px;
-    padding-top:10px;
-
 }
 
-#header:hover {
-    box-shadow:0 3px 10px hotpink;
+#education h2 {
+    border-bottom: 1px rgb(197, 197, 197) solid;
+    margin-left:20px;
+}
+
+#education h3 {
+    margin-left:20px;
+}
+
+#education p {
+    margin-left:20px;
 }
 
 #work {
-    background-color:white;
-    border-radius:10px;
-    margin-left:50px;
-    margin-right:50px;
-    overflow:hidden;
+    box-shadow: 0 3px 10px white;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom:10px;
 }
 
 #work h2 {
-    user-select:none;
-    border-bottom: 1px black solid;
+    margin-left:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    user-select: none;
+    border-bottom: 1px rgb(197, 197, 197) solid;
 }
 
 #work h3 {
-    margin:20px;
+    margin: 20px;
 }
 
 #work p {
