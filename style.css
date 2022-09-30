@@ -50,6 +50,7 @@ body {
 #header p {
     margin-left: 20px;
     font-size: 2em;
+    margin-right: 20px;
 }
 
 #header h1,
@@ -57,6 +58,7 @@ h2 {
     padding-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-right: 20px;
 }
 
 #general {
@@ -72,10 +74,12 @@ h2 {
 
 #general p {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 #general h2 {
     margin-left: 20px;
+    margin-right: 20px;
     border-bottom: 1px rgb(197, 197, 197) solid;
 }
 
@@ -151,16 +155,19 @@ h2 {
 #education h2 {
     border-bottom: 1px rgb(197, 197, 197) solid;
     margin-left: 20px;
+    margin-right: 20px;
     user-select: none;
 }
 
 #education h3 {
     margin-left: 20px;
+    margin-right: 20px;
     word-wrap: break-word;
 }
 
 #education p {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 #work {
@@ -176,6 +183,7 @@ h2 {
 #work h2 {
     margin-left: 20px;
     margin-top: 10px;
+    margin-right: 20px;
     /* margin-bottom: 10px; */
     user-select: none;
     border-bottom: 1px rgb(197, 197, 197) solid;
@@ -201,6 +209,7 @@ h2 {
 
 #hobbies h2 {
     margin-left: 20px;
+    margin-right: 20px;
     border-bottom: 1px rgb(197, 197, 197) solid;
     user-select: none;
 }
@@ -208,4 +217,5 @@ h2 {
 #hobbies h3,
 h4 {
     margin-left: 20px;
+    margin-right: 20px;
 }
