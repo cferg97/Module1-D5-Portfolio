@@ -32,13 +32,6 @@ body {
     background-color: rgb(92, 43, 226);
 }
 
-.center {
-    background-color: white;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #header {
     display: inline-block;
     color: black;
@@ -46,6 +39,11 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
+}
+
+#header p {
+    margin-left: 20px;
+    font-size: 2em;
 }
 
 #header h1,
@@ -60,7 +58,7 @@ h2 {
 } */
 
 #education {
-    box-shadow: 0 3px 10px white;
+    box-shadow: 0 3px 10px rgb(50, 25, 119);
     background-color: white;
     border-radius: 10px;
     margin-left: 50px;
@@ -84,7 +82,7 @@ h2 {
 }
 
 #work {
-    box-shadow: 0 3px 10px white;
+    box-shadow: 0 3px 10px rgb(50, 25, 119);
     background-color: white;
     border-radius: 10px;
     margin-left: 50px;
@@ -110,11 +108,13 @@ h2 {
 }
 
 #hobbies {
+    box-shadow: 0 3px 10px rgb(50, 25, 119);
     margin-left: 50px;
     margin-right: 50px;
     background: white;
     border-radius: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 #hobbies h2 {
