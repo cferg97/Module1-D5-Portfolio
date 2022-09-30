@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -6,6 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     background: linear-gradient(lightgray, rgba(0, 0, 0, 0));
+    z-index: 1;
 }
 
 .topnav {
@@ -13,6 +18,7 @@ body {
     overflow: hidden;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 .topnav a {
@@ -55,21 +61,78 @@ h2 {
 
 #general {
     box-shadow: 0 3px 10px rgb(50, 25, 119);
-    background-color:white;
-    border-radius:10px;
+    background-color: white;
+    border-radius: 10px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
     padding-bottom: 10px;
+    user-select: none;
 }
 
 #general p {
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 #general h2 {
-    margin-left:20px;
+    margin-left: 20px;
+    border-bottom: 1px rgb(197, 197, 197) solid;
 }
+
+#photo {
+    margin: auto;
+    margin-top: 50px;
+    width: 650px;
+    height: 550px;
+    overflow: none;
+    text-align: center;
+}
+
+
+#image {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgb(159, 48, 163);
+}
+
+
+
+.photo {
+    position: relative;
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: none;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    background: rgba(0 0 0 0.5);
+    color: white;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.photo:hover .overlay {
+    opacity: 0.75;
+}
+
 /* #header:hover {
     box-shadow: 0 3px 10px rgb(92, 43, 226);
 } */
@@ -82,7 +145,7 @@ h2 {
     margin-right: 50px;
     margin-bottom: 50px;
     padding-bottom: 10px;
-    
+
 }
 
 #education h2 {
@@ -119,7 +182,7 @@ h2 {
 }
 
 #work h3 {
-    margin: 20px;
+    margin: 5px;
 }
 
 #work p {
@@ -139,7 +202,7 @@ h2 {
 #hobbies h2 {
     margin-left: 20px;
     border-bottom: 1px rgb(197, 197, 197) solid;
-
+    user-select: none;
 }
 
 #hobbies h3,
