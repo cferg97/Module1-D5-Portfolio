@@ -53,6 +53,23 @@ h2 {
     padding-top: 10px;
 }
 
+#general {
+    box-shadow: 0 3px 10px rgb(50, 25, 119);
+    background-color:white;
+    border-radius:10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+#general p {
+    margin-left:20px;
+}
+
+#general h2 {
+    margin-left:20px;
+}
 /* #header:hover {
     box-shadow: 0 3px 10px rgb(92, 43, 226);
 } */
@@ -65,6 +82,7 @@ h2 {
     margin-right: 50px;
     margin-bottom: 50px;
     padding-bottom: 10px;
+    
 }
 
 #education h2 {
@@ -75,6 +93,7 @@ h2 {
 
 #education h3 {
     margin-left: 20px;
+    word-wrap: break-word;
 }
 
 #education p {
@@ -88,13 +107,13 @@ h2 {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 #work h2 {
     margin-left: 20px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    /* margin-bottom: 10px; */
     user-select: none;
     border-bottom: 1px rgb(197, 197, 197) solid;
 }
